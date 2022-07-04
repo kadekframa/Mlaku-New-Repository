@@ -1,0 +1,245 @@
+.home-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+}
+
+.home-wrapper p {
+    font-size: 20px !important;
+}
+
+/* Image Slider */
+.img {
+    width: 100%;
+    height: 82vh;
+    object-fit: cover;
+    object-position: top;
+}
+
+.home-wrapper .swiper-wrapper {
+    display: flex;
+    width: 95% !important;
+    height: 100%;
+}
+
+.home-wrapper .swiper-wrapper .text-img-slider1 {
+    width: 100%;
+    position: absolute;
+    color: white;
+    text-shadow: 0px 0px 34px rgb(0, 0, 0);
+    margin: 56vh 17vh auto;
+}
+
+.home-wrapper .swiper-wrapper .text-img-slider2 {
+    width: 100%;
+    position: absolute;
+    color: white;
+    text-shadow: 0px 0px 34px rgb(0, 0, 0);
+    margin: 12vh 10vh auto;
+}
+
+.home-wrapper .swiper-wrapper .text-img-slider3 {
+    width: 100%;
+    position: absolute;
+    color: white;
+    text-shadow: 0px 0px 34px rgb(0, 0, 0);
+    margin: 28vh 56vh auto;
+}
+
+.visit-indonesia {
+    font-size: 64px;
+}
+
+.visit-desc {
+    font-size: 32px;
+    margin: 0 1vh;
+}
+
+.icon-off {
+    display: none;
+}
+
+.swiper-pagination-bullet {
+    width: 16px;
+    height: 16px;
+}
+
+
+/* Hero Information */
+.home-wrapper .home-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0px;
+    margin-bottom: 100px;
+}
+
+.home-wrapper .home-content-wrapper .mlaku-hero {
+    border-top: 1.6px solid rgb(200, 200, 200);
+}
+
+.home-wrapper .home-content-wrapper .mlaku-hero h1 {
+    font-weight: bold;
+    color: rgb(58, 105, 144);
+    margin-top: 160px;
+}
+
+.home-wrapper .home-content-wrapper .heading-description-mlaku {
+    margin: 134px 0 0;
+}
+
+.home-wrapper .home-content-wrapper .description-mlaku {
+    text-align: justify;
+}
+
+
+/* Heading highlight css */
+
+.home-wrapper .highlight-wrapper {
+    margin: 0 auto;
+}
+
+.home-wrapper .highlight-wrapper h2 {
+    font-weight: bold;
+    color: rgb(58, 105, 144);
+    margin-top: 80px;
+}
+
+.home-wrapper .desc-highlight {
+    font-size: 18px;
+    margin: 10px 100px 74px;
+}
+
+
+/* Section Province */
+.home-wrapper .section-province-wrapper {
+    margin: 0 0px;
+}
+
+
+
+/* Section Culinary */
+.home-wrapper .section-culinary-wrapper {
+    margin: 0 0px;
+}
+
+
+/* Section Acommodation */
+.home-wrapper .section-culinary-wrapper {
+    margin: 0 0px;
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .home-wrapper .image-slider {
+        --bs-gutter-x: 1.1rem;
+    }
+
+    .home-wrapper .swiper-wrapper .text-img-slider1 {
+        display: none;
+    }
+    
+    .home-wrapper .swiper-wrapper .text-img-slider2 {
+        display: none;
+    }
+    
+    .home-wrapper .swiper-wrapper .text-img-slider3 {
+        display: none;
+    }
+
+    .home-wrapper .highlight-wrapper {
+        margin: 0;
+    }
+
+    .home-wrapper .highlight-wrapper h2 {
+        padding: 0;
+    }
+
+    .home-wrapper .home-content-wrapper .mlaku-hero h1 {
+        margin-top: 24px;
+    }
+
+    .home-wrapper .highlight-wrapper h2 {
+        margin-top: 56px;
+    }
+    
+    .home-wrapper .desc-highlight {
+        text-align: justify !important;
+        margin: 10px 0 20px;
+    }
+    
+    .responsive-wrapper {
+      flex-direction: column;
+    }
+
+    .home-wrapper .section-province-wrapper .col {
+        width: 100% !important;
+    }
+
+    
+    .home-wrapper .section-culinary-wrapper .col {
+        width: 100% !important;
+    }
+    
+    .home-wrapper .section-acommodation-wrapper .col {
+        width: 100% !important;
+    }
+}
+
+/* 
+@media screen and (min-width: 1600px) {
+    .home-wrapper .section-province-wrapper {
+        margin: 0 40px;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    .home-wrapper .section-province-wrapper {
+        margin: 0 100px;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .home-wrapper .section-province-wrapper {
+        margin: 0 140px;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    .home-wrapper .section-province-wrapper {
+        margin: 0 180px;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    .home-wrapper .section-province-wrapper {
+        margin: 0 220px;
+    }
+}
+
+@media screen and (min-width: 2100px) {
+    .home-wrapper .section-province-wrapper {
+        margin: 0 260px;
+    }
+}
+
+@media screen and (min-width: 2200px) {
+    .home-wrapper .section-province-wrapper {
+        margin: 0 300px;
+    }
+}
+
+@media screen and (min-width: 2300px) {
+    .home-wrapper .section-province-wrapper {
+        margin: 0 340px;
+    }
+}
+
+@media screen and (min-width: 2400px) {
+    .home-wrapper .section-province-wrapper {
+        max-width: 2400px;
+        margin: 0 380px;
+    }
+} */
